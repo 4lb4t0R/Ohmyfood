@@ -112,8 +112,9 @@ body {
 }
 
 .fonctionmt__titre {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-left: 20px;
+  font-weight: bolder;
 }
 
 .fonctionmt__btn > button {
