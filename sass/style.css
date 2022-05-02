@@ -4,7 +4,19 @@
 }
 
 /*Variables*/
-/*Fin des variables*/
 /*HEADER*/
+
+.logo {
+  box-shadow : solid 1px black
+	
+}
+.logo__taille {
+  width : 50px
+	height : 30px
+	
+}
+.header {
+  align-content: center;
+}
 /*FIN HEADER*/
 /*# sourceMappingURL=style.css.map */
