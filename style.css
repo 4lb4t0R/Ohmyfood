@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -104,6 +105,10 @@ body {
 }
 
 /*Fin intro*/
+/*Fonctionnement du site*/
+/*Fin du fonctionnement*/
+/*Restos proposés*/
+/*Fin des restos*/
 /*Footer*/
 .footer {
   background-color: #414243;
