@@ -10,22 +10,27 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: solid 1px black;
-          box-shadow: solid 1px black;
-  margin-top: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
 }
 
 .logo__taille {
-  width: 100px;
-  height: 40px;
+  width: 150px;
+  height: 30px;
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*FIN HEADER*/
