@@ -59,7 +59,7 @@ $gris: #f2f2f2;
 .intro__grostxt {
 	font-weight: bold;
 	font-size: x-large;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	text-align: center;
 	font-weight: bold;
 }
@@ -74,5 +74,10 @@ $gris: #f2f2f2;
 	-moz-border-radius: 25px;
 	-ms-border-radius: 25px;
 	-o-border-radius: 25px;
+	height: 50px;
+	width: 220px;
+	border: none;
+	background-color: #9356dc;
+	color: white;
 }
 /*Fin intro*/
