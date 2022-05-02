@@ -7,13 +7,6 @@
 		{
 			"type": "firefox",
 			"request": "launch",
-			"reAttach": true,
-			"name": "Launch index.html",
-			"file": "${workspaceFolder}/index.html"
-		},
-		{
-			"type": "pwa-msedge",
-			"request": "launch",
 			"name": "Open index.html",
 			"file": "c:\\Users\\blacc\\Desktop\\OhMyFood\\index.html"
 		}
