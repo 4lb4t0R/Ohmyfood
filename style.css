@@ -106,6 +106,41 @@ body {
 
 /*Fin intro*/
 /*Fonctionnement du site*/
+.fonctionmt {
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.fonctionmt__titre {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.fonctionmt__btn > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  width: 360px;
+  height: 70px;
+  border-radius: 15px;
+  border: none;
+  -webkit-box-shadow: 0px 5px 10px grey;
+          box-shadow: 0px 5px 10px grey;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
 /*Fin du fonctionnement*/
 /*Restos proposés*/
 /*Fin des restos*/
