@@ -36,5 +36,16 @@
   padding-bottom: 10px;
 }
 
+.header__dot {
+  margin-right: 15px;
+  height: auto;
+  width: auto;
+}
+
+.header__txt {
+  font-weight: bold;
+  font-size: larger;
+}
+
 /*FIN HEADER*/
 /*# sourceMappingURL=style.css.map */
