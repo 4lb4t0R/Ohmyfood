@@ -51,4 +51,12 @@
 }
 
 /*FIN HEADER*/
+/*Intro au site*/
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*Fin intro*/
 /*# sourceMappingURL=style.css.map */
