@@ -47,5 +47,14 @@ $gris: #f2f2f2;
 /*Intro au site*/
 .intro {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.intro__grostxt {
+	font-weight: bold;
+	font-size: x-large;
+}
+.intro__petittxt {
+	font-size: medium;
 }
 /*Fin intro*/
