@@ -11,15 +11,14 @@ $tertiaire: #99e2d0;
 
 /*HEADER*/
 .logo {
+	display: flex;
 	box-shadow: solid 1px black;
 	margin-top: 30px;
+	justify-content: center;
 }
 .logo__taille {
 	width: 100px;
 	height: 40px;
-	justify-content: center;
-	justify-items: center;
-	justify-self: center;
 }
 .header {
 	align-content: center;
