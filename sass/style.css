@@ -4,19 +4,22 @@
 }
 
 /*Variables*/
+/*Fin des variables*/
 /*HEADER*/
-
 .logo {
-  box-shadow : solid 1px black
-	
+  -webkit-box-shadow: solid 1px black;
+          box-shadow: solid 1px black;
 }
+
 .logo__taille {
-  width : 50px
-	height : 30px
-	
+  width: 50px;
+  height: 30px;
 }
+
 .header {
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
+
 /*FIN HEADER*/
 /*# sourceMappingURL=style.css.map */
