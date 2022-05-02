@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Variables*/
+/*Fin des variables*/
+/*HEADER*/
+.logo {
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.logo__taille {
+	width: 150px;
+	height: 30px;
+	align-items: center;
+	align-self: center;
+}
+
+.header {
+	align-content: center;
+	justify-content: center;
+}
+
+/*FIN HEADER*/
+/*# sourceMappingURL=style.css.map */
+/* No CSS */ /*# sourceMappingURL=style.css.map */
