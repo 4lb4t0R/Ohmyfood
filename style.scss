@@ -102,10 +102,10 @@ $gris: #f2f2f2;
 	}
 	.fonctionmt__btn > button {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: center;
 		font-weight: bold;
-		width: 90%;
+		width: 80%;
 		height: 4rem;
 		margin: 0 auto;
 		border-radius: 15px;
@@ -124,18 +124,21 @@ $gris: #f2f2f2;
 .fonctionmt__numbers {
 	background-color: #9356dc;
 	color: white;
-	text-align: center;
+	align-items: center;
 	font-weight: lighter;
 	font-size: small;
 	margin-right: 2.5rem;
 	height: 1.4rem;
 	width: 1.5rem;
+	position: absolute;
+	left: 1.8rem;
 	border-radius: 35px;
 	-webkit-border-radius: 35px;
 	-moz-border-radius: 35px;
 	-ms-border-radius: 35px;
 	-o-border-radius: 35px;
 }
+
 /*Fin du fonctionnement*/
 /*Restos proposés*/
 
