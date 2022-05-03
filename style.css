@@ -154,9 +154,9 @@ body {
   -o-border-radius: 15px;
 }
 
-.fonctionmt__btn > button:active {
+.fonctionmt__btn > button:focus {
   background-color: #9356dc;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 .fonctionmt .fonctionmt__icn {
@@ -164,7 +164,7 @@ body {
   color: grey;
 }
 
-.fonctionmt__icn > i:active {
+.fonctionmt__icn:active {
   color: #9356dc;
 }
 
