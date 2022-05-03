@@ -100,6 +100,7 @@ $gris: #f2f2f2;
 		margin: 35px 0;
 		background-color: #f2f2f2;
 	}
+
 	.fonctionmt__btn > button {
 		display: flex;
 		justify-content: center;
@@ -116,11 +117,20 @@ $gris: #f2f2f2;
 		-ms-border-radius: 15px;
 		-o-border-radius: 15px;
 	}
+	&__btn > button:active {
+		background-color: #9356dc;
+		opacity: 0.5;
+	}
+
 	.fonctionmt__icn {
 		padding-right: 1.5rem;
 		color: grey;
 	}
+	&__icn > i:active {
+		color: #9356dc;
+	}
 }
+
 .fonctionmt__numbers {
 	background-color: #9356dc;
 	color: white;

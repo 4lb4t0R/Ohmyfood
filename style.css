@@ -154,9 +154,18 @@ body {
   -o-border-radius: 15px;
 }
 
+.fonctionmt__btn > button:active {
+  background-color: #9356dc;
+  opacity: 0.5;
+}
+
 .fonctionmt .fonctionmt__icn {
   padding-right: 1.5rem;
   color: grey;
+}
+
+.fonctionmt__icn > i:active {
+  color: #9356dc;
 }
 
 .fonctionmt__numbers {
