@@ -88,38 +88,52 @@ $gris: #f2f2f2;
 .fonctionmt {
 	font-weight: bold;
 	margin-top: 50px;
+	.fonctionmt__titre {
+		padding-bottom: 20px;
+		padding-left: 20px;
+		font-weight: bolder;
+	}
+	.fonctionmt__btn {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		margin: 35px 0;
+		background-color: #f2f2f2;
+	}
+	.fonctionmt__btn > button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: bold;
+		width: 90%;
+		height: 4rem;
+		margin: 0 auto;
+		border-radius: 15px;
+		border: none;
+		box-shadow: 0px 5px 10px grey;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		-ms-border-radius: 15px;
+		-o-border-radius: 15px;
+	}
+	.fonctionmt__icn {
+		padding-right: 1.5rem;
+		color: grey;
+	}
 }
-.fonctionmt__titre {
-	padding-bottom: 30px;
-	padding-left: 20px;
-	font-weight: bolder;
-}
-.fonctionmt__btn {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-	margin: 35px 0;
-	background-color: #f2f2f2;
-}
-.fonctionmt__btn > button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-weight: bold;
-	width: 95%;
-	height: 4rem;
-	margin: 0 auto;
-	border-radius: 15px;
-	border: none;
-	box-shadow: 0px 5px 10px grey;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	-ms-border-radius: 15px;
-	-o-border-radius: 15px;
-}
-.fonctionmt__icn {
-	padding-right: 1.5rem;
-	color: grey;
+.fonctionmt__numbers {
+	background-color: #9356dc;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	font-size: small;
+	height: 1.3rem;
+	width: 1.5rem;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	-ms-border-radius: 35px;
+	-o-border-radius: 35px;
 }
 /*Fin du fonctionnement*/
 /*Restos proposés*/
