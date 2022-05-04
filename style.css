@@ -159,13 +159,13 @@ body {
   background-color: #f2e7f7;
 }
 
+.fonctionmt .fonctionmt__btn > button > i:hover {
+  color: #9356cd;
+}
+
 .fonctionmt .fonctionmt__icn {
   padding-right: 1.5rem;
   color: grey;
-}
-
-.fonctionmt .fonctionmt__icn:active {
-  color: #9356dc;
 }
 
 .fonctionmt .fonctionmt__numbers {

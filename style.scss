@@ -125,10 +125,9 @@ $gris: #f2f2f2;
 	.fonctionmt__icn {
 		padding-right: 1.5rem;
 		color: grey;
-		&:active {
-			color: #9356dc;
-		}
+		@if ((fonctionmt__btn: focus) color: #9356cd);} 
 	}
+
 
 	.fonctionmt__numbers {
 		background-color: #9356dc;
