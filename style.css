@@ -130,6 +130,10 @@ body {
   background-color: white;
 }
 
+.fonctionmt .fonctionmt__btn > button:focus {
+  background-color: #9356dc;
+}
+
 .fonctionmt .fonctionmt__btn > button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,6 +145,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-weight: bold;
+  background-color: #f2f2f2;
   width: 80%;
   height: 4rem;
   margin: 0 auto;
@@ -159,11 +164,7 @@ body {
   color: grey;
 }
 
-.fonctionmt__icn:focus {
-  color: #9356dc;
-}
-
-.fonctionmt__numbers {
+.fonctionmt .fonctionmt__numbers {
   background-color: #9356dc;
   color: white;
   -webkit-box-align: center;

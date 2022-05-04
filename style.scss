@@ -100,12 +100,15 @@ $gris: #f2f2f2;
 		margin: 35px 0;
 		background-color: white;
 	}
-
+	.fonctionmt__btn > button:focus {
+		background-color: #9356dc;
+	}
 	.fonctionmt__btn > button {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		font-weight: bold;
+		background-color: #f2f2f2;
 		width: 80%;
 		height: 4rem;
 		margin: 0 auto;
@@ -117,32 +120,27 @@ $gris: #f2f2f2;
 		-ms-border-radius: 15px;
 		-o-border-radius: 15px;
 	}
-
 	.fonctionmt__icn {
 		padding-right: 1.5rem;
 		color: grey;
 	}
-	&__icn:focus {
-		color: #9356dc;
+	.fonctionmt__numbers {
+		background-color: #9356dc;
+		color: white;
+		align-items: center;
+		font-weight: lighter;
+		font-size: small;
+		margin-right: 2.5rem;
+		height: 1.4rem;
+		width: 1.5rem;
+		position: absolute;
+		left: 1.8rem;
+		border-radius: 35px;
+		-webkit-border-radius: 35px;
+		-moz-border-radius: 35px;
+		-ms-border-radius: 35px;
+		-o-border-radius: 35px;
 	}
-}
-
-.fonctionmt__numbers {
-	background-color: #9356dc;
-	color: white;
-	align-items: center;
-	font-weight: lighter;
-	font-size: small;
-	margin-right: 2.5rem;
-	height: 1.4rem;
-	width: 1.5rem;
-	position: absolute;
-	left: 1.8rem;
-	border-radius: 35px;
-	-webkit-border-radius: 35px;
-	-moz-border-radius: 35px;
-	-ms-border-radius: 35px;
-	-o-border-radius: 35px;
 }
 
 /*Fin du fonctionnement*/
@@ -175,5 +173,4 @@ $gris: #f2f2f2;
 		padding-bottom: 5px;
 	}
 }
-
 /*Fin footer*/
