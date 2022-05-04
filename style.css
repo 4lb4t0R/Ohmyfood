@@ -155,7 +155,7 @@ body {
   -o-border-radius: 15px;
 }
 
-.fonctionmt .fonctionmt__btn > button > button:focus {
+.fonctionmt .fonctionmt__btn > button:focus {
   background-color: #f2e7f7;
 }
 
