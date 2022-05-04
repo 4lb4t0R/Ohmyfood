@@ -164,7 +164,7 @@ body {
   color: grey;
 }
 
-.fonctionmt .fonctionmt__icn:active {
+.fonctionmt .fonctionmt__icn:focus {
   color: #9356dc;
 }
 

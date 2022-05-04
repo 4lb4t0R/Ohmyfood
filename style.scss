@@ -127,7 +127,8 @@ $legris: (128, 128, 128);
 	.fonctionmt__icn {
 		padding-right: 1.5rem;
 		color: grey;
-		&:active {
+
+		&:focus {
 			color: #9356dc;
 		}
 	}
