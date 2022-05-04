@@ -12,6 +12,7 @@ $secondaire: #ff79da;
 $tertiaire: #99e2d0;
 $clic: #f2e7f7;
 $gris: #f2f2f2;
+$legris: (128, 128, 128);
 /*Fin des variables*/
 
 /*Header*/
@@ -127,8 +128,8 @@ $gris: #f2f2f2;
 		padding-right: 1.5rem;
 		color: grey;
 		opacity: 1;
-		@if (lightness($gris) <10%) {
-			$principale: darken($principale, 1%);
+		@if (darkness($gris) <20%) {
+			$legris: darken($principale, 100%);
 		}
 	}
 
