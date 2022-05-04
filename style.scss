@@ -10,6 +10,7 @@ body {
 $principale: #9356dc;
 $secondaire: #ff79da;
 $tertiaire: #99e2d0;
+$clic: #f2e7f7;
 $gris: #f2f2f2;
 /*Fin des variables*/
 
@@ -125,9 +126,11 @@ $gris: #f2f2f2;
 	.fonctionmt__icn {
 		padding-right: 1.5rem;
 		color: grey;
-		@if ((fonctionmt__btn: focus) color: #9356cd);} 
+		opacity: 1;
+		@if (lightness($gris) <10%) {
+			$principale: darken($principale, 1%);
+		}
 	}
-
 
 	.fonctionmt__numbers {
 		background-color: #9356dc;
