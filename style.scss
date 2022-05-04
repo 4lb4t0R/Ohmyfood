@@ -127,9 +127,9 @@ $legris: (128, 128, 128);
 	.fonctionmt__icn {
 		padding-right: 1.5rem;
 		color: grey;
-		opacity: 1;
-		@if (darkness($gris) <20%) {
-			$legris: darken($principale, 100%);
+		&:active {
+			opacity: 1;
+			color: #9356dc;
 		}
 	}
 

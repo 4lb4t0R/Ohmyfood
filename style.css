@@ -162,7 +162,11 @@ body {
 .fonctionmt .fonctionmt__icn {
   padding-right: 1.5rem;
   color: grey;
+}
+
+.fonctionmt .fonctionmt__icn:active {
   opacity: 1;
+  color: #9356dc;
 }
 
 .fonctionmt .fonctionmt__numbers {
