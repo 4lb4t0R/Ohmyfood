@@ -119,7 +119,7 @@ $legris: (128, 128, 128);
 		-moz-border-radius: 15px;
 		-ms-border-radius: 15px;
 		-o-border-radius: 15px;
-		&:focus {
+		& > button:focus {
 			background-color: #f2e7f7;
 		}
 	}
@@ -128,12 +128,13 @@ $legris: (128, 128, 128);
 		padding-right: 1.5rem;
 		color: grey;
 		&:active {
-			opacity: 1;
 			color: #9356dc;
 		}
 	}
 
 	.fonctionmt__numbers {
+		display: flex;
+		justify-content: center;
 		background-color: #9356dc;
 		color: white;
 		align-items: center;

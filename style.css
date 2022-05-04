@@ -155,7 +155,7 @@ body {
   -o-border-radius: 15px;
 }
 
-.fonctionmt .fonctionmt__btn > button:focus {
+.fonctionmt .fonctionmt__btn > button > button:focus {
   background-color: #f2e7f7;
 }
 
@@ -165,11 +165,16 @@ body {
 }
 
 .fonctionmt .fonctionmt__icn:active {
-  opacity: 1;
   color: #9356dc;
 }
 
 .fonctionmt .fonctionmt__numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #9356dc;
   color: white;
   -webkit-box-align: center;
