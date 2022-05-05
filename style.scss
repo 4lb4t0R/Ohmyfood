@@ -12,7 +12,6 @@ $secondaire: #ff79da;
 $tertiaire: #99e2d0;
 $clic: #f2e7f7;
 $gris: #f2f2f2;
-$legris: (128, 128, 128);
 /*Fin des variables*/
 
 /*Header*/
@@ -84,8 +83,8 @@ $legris: (128, 128, 128);
 		box-shadow: 0px 5px 10px grey;
 	}
 }
-
 /*Fin intro*/
+
 /*Fonctionnement du site*/
 .fonctionmt {
 	font-weight: bold;
@@ -167,10 +166,20 @@ $legris: (128, 128, 128);
 		-o-border-radius: 35px;
 	}
 }
-
 /*Fin du fonctionnement*/
-/*Restos proposés*/
 
+/*Restos proposés*/
+.resto {
+	background-color: $gris;
+	& > div {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+	}
+	.resto__choix {
+		background-color: white;
+	}
+}
 /*Fin des restos*/
 
 /*Footer*/
