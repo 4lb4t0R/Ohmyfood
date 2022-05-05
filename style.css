@@ -233,6 +233,7 @@ body {
 .resto .resto__choix {
   border-radius: 15px;
   width: 80%;
+  height: 224px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -244,6 +245,18 @@ body {
 }
 
 .resto .resto__img {
+  height: 70%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  -moz-border-radius: 15px 15px 0px 0px;
+  -ms-border-radius: 15px 15px 0px 0px;
+  -o-border-radius: 15px 15px 0px 0px;
+}
+
+.resto .resto__imgbis {
   height: 70%;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
