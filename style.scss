@@ -210,6 +210,13 @@ $gris: #f2f2f2;
 		-ms-border-radius: 15px 15px 0px 0px;
 		-o-border-radius: 15px 15px 0px 0px;
 	}
+	.resto__heart {
+		display: flex;
+		justify-content: flex-end;
+		padding-top: 1rem;
+		padding-right: 1rem;
+		font-size: x-large;
+	}
 }
 /*Fin des restos*/
 
