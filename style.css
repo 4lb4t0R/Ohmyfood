@@ -219,18 +219,9 @@ body {
 /*Fin du fonctionnement*/
 /*Restos proposés*/
 .resto {
+  margin-top: 50px;
+  padding-top: 30px;
   background-color: #f2f2f2;
-}
-
-.resto > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .resto .resto__titre {
@@ -240,7 +231,22 @@ body {
 }
 
 .resto .resto__choix {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
+}
+
+.resto .resto__img {
+  height: 7rem;
+  width: 15rem;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /*Fin des restos*/
