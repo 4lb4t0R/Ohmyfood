@@ -213,18 +213,18 @@ $gris: #f2f2f2;
 	}
 	.resto__txt {
 		display: flex;
-		justify-content: flex-start;
-		flex-direction: column;
+		justify-content: space-between;
+
 		padding-top: 0.5rem;
 		padding-left: 0.7rem;
-		gap: 0.2rem;
+	}
+	.resto__complmt {
+		padding-left: 0.7rem;
 	}
 	.resto__heart {
-		display: flex;
-		justify-content: flex-end;
-		padding-top: 1rem;
 		padding-right: 1rem;
 		font-size: x-large;
+		padding-top: 0.2rem;
 	}
 }
 /*Fin des restos*/
