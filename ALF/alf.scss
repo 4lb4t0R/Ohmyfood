@@ -87,6 +87,11 @@ $gris: #f2f2f2;
 		margin-bottom: 1rem;
 		padding: 1rem;
 	}
+	&__price {
+		padding-top: 0.5rem;
+		display: flex;
+		justify-content: space-between;
+	}
 	&__txt {
 		font-family: "Roboto";
 	}

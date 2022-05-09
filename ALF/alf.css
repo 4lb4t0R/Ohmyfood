@@ -115,6 +115,16 @@ body {
   padding: 1rem;
 }
 
+.menu__price {
+  padding-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .menu__txt {
   font-family: "Roboto";
 }
