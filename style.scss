@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body {
-	font-family: "Roboto", "sans-serif";
+	font-family: "Roboto", "sans-serif", "Shrikhand";
 }
 
 /*Variables*/
@@ -22,6 +22,7 @@ $gris: #f2f2f2;
 	margin-bottom: 5px;
 	padding-top: 30px;
 	padding-bottom: 10px;
+
 	.logo__taille {
 		width: 150px;
 		height: 30px;
@@ -156,7 +157,7 @@ $gris: #f2f2f2;
 .resto {
 	margin-top: 50px;
 	padding-top: 30px;
-	margin-bottom: 70px;
+	padding-bottom: 70px;
 	background-color: $gris;
 
 	.resto__titre {
