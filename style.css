@@ -10,6 +10,8 @@ body {
 
 /*Variables*/
 /*Fin des variables*/
+/*MIXINS*/
+/*Fin MIXIN*/
 /*Header*/
 .logo {
   -webkit-box-shadow: 10px 0px 9px grey;
