@@ -11,8 +11,6 @@ body {
 /*Fin des variables*/
 /*Header*/
 .logo {
-  -webkit-box-shadow: 10px 0px 9px grey;
-          box-shadow: 10px 0px 9px grey;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,20 +36,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #e7eaed;
   padding-top: 15px;
-  padding-bottom: 15px;
 }
 
-.header .header__dot {
-  margin-right: 15px;
-  height: auto;
-  width: auto;
-}
-
-.header .header__txt {
-  font-weight: bold;
-  font-size: larger;
+.header__pic {
+  height: 70%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*FIN HEADER*/

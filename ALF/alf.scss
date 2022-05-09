@@ -16,7 +16,6 @@ $gris: #f2f2f2;
 
 /*Header*/
 .logo {
-	box-shadow: 10px 0px 9px grey;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 5px;
@@ -33,19 +32,14 @@ $gris: #f2f2f2;
 	display: flex;
 	align-content: center;
 	justify-content: center;
-	background-color: #e7eaed;
 	padding-top: 15px;
-	padding-bottom: 15px;
-	.header__dot {
-		margin-right: 15px;
-		height: auto;
-		width: auto;
-	}
-	.header__txt {
-		font-weight: bold;
-		font-size: larger;
+	&__pic {
+		height: 70%;
+		width: 100%;
+		object-fit: cover;
 	}
 }
+
 /*FIN HEADER*/
 .order__btn {
 	border-radius: 25px;
