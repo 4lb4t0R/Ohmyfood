@@ -211,6 +211,25 @@ $gris: #f2f2f2;
 		padding-top: 0.2rem;
 		cursor: pointer;
 	}
+	&__heart:focus {
+		opacity: 1;
+		transform: background-image(
+			linear-gradient(to bottom, #ff79da, #9356dc)
+		);
+		transition-duration: 400ms;
+		-webkit-transform: background-image(
+			linear-gradient(to bottom, #ff79da, #9356dc)
+		);
+		-moz-transform: background-image(
+			linear-gradient(to bottom, #ff79da, #9356dc)
+		);
+		-ms-transform: background-image(
+			linear-gradient(to bottom, #ff79da, #9356dc)
+		);
+		-o-transform: background-image(
+			linear-gradient(to bottom, #ff79da, #9356dc)
+		);
+	}
 }
 /*Fin des restos*/
 
