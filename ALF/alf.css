@@ -74,6 +74,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 2rem;
 }
 
@@ -82,7 +85,6 @@ body {
   font-size: x-large;
   padding-top: 0.2rem;
   cursor: pointer;
-  padding-left: 10rem;
   border-image-source: 2px solid grey;
 }
 
@@ -95,7 +97,7 @@ body {
   border-bottom: 2px #99e2d0 solid;
 }
 
-.menu__entrees {
+.menu__plat {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -126,6 +128,20 @@ body {
 }
 
 .menu__txt {
+  font-family: "Roboto";
+}
+
+.menu__btn {
+  margin-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Roboto";
 }
 
