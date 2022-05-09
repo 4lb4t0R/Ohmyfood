@@ -40,7 +40,7 @@ body {
 }
 
 .header__pic {
-  height: 70%;
+  height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
