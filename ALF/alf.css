@@ -7,6 +7,52 @@ body {
   font-family: "Roboto", "sans-serif", "Shrikhand";
 }
 
+/*Header*/
+.logo {
+  -webkit-box-shadow: 10px 0px 9px grey;
+          box-shadow: 10px 0px 9px grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.logo .logo__taille {
+  width: 150px;
+  height: 30px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e7eaed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header .header__dot {
+  margin-right: 15px;
+  height: auto;
+  width: auto;
+}
+
+.header .header__txt {
+  font-weight: bold;
+  font-size: larger;
+}
+
+/*FIN HEADER*/
 /*Footer*/
 .footer {
   background-color: #414243;
