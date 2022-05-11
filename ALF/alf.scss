@@ -71,9 +71,14 @@ $gris: #f2f2f2;
 	}
 	&__order {
 		padding-left: 1rem;
-		display: flex;
-		margin-bottom: 1.5rem;
-		border-bottom: 2px $tertiaire solid;
+		&::after {
+			content: "";
+			padding-left: 1rem;
+			display: flex;
+			margin-bottom: 1.5rem;
+			width: 1.5rem;
+			border-bottom: 2px $tertiaire solid;
+		}
 	}
 	&__plat {
 		flex-direction: column;

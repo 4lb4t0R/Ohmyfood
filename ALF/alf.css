@@ -90,10 +90,16 @@ body {
 
 .menu__order {
   padding-left: 1rem;
+}
+
+.menu__order::after {
+  content: "";
+  padding-left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 1.5rem;
+  width: 1.5rem;
   border-bottom: 2px #99e2d0 solid;
 }
 
