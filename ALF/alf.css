@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", "sans-serif", "Shrikhand";
+}
+
+/*Variables*/
+/*Fin des variables*/
+/*Header*/
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.logo .logo__taille {
+  width: 150px;
+  height: 30px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15px;
+}
+
+.header__pic {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*FIN HEADER*/
+/*MENU*/
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-color: #f2f2f2;
+  border-radius: 35px 35px 0px 0px;
+  -webkit-border-radius: 35px 35px 0px 0px;
+  -moz-border-radius: 35px 35px 0px 0px;
+  -ms-border-radius: 35px 35px 0px 0px;
+  -o-border-radius: 35px 35px 0px 0px;
+}
+
+.menu__title {
+  font-family: "Shrikhand";
+  font-weight: 400;
+  font-size: x-large;
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.menu__heart {
+  padding-right: 1rem;
+  font-size: x-large;
+  padding-top: 0.2rem;
+  cursor: pointer;
+  border-image-source: 2px solid grey;
+}
+
+.menu__order {
+  padding-left: 1rem;
+}
+
+.menu__order::after {
+  content: "";
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+  width: 1.5rem;
+  border-bottom: 2px #99e2d0 solid;
+}
+
+.menu__plat {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 15px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.menu__price {
+  padding-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__txt {
+  font-family: "Roboto";
+}
+
+.menu__btn {
+  margin-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Roboto";
+}
+
+.order__btn {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  height: 50px;
+  width: 220px;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(to bottom, #ff79da, #9356dc);
+  color: white;
+  -webkit-box-shadow: 0px 5px 10px grey;
+          box-shadow: 0px 5px 10px grey;
+}
+
+/*FIN MENU*/
+/*Footer*/
+.footer {
+  background-color: #414243;
+}
+
+.footer .footer__logo {
+  width: 80px;
+  height: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(102%);
+          filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(102%);
+}
+
+.footer .footer__icn {
+  padding-right: 10px;
+  height: 15px;
+  width: 15px;
+}
+
+.footer .footer__txt > p {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+/*Fin footer*/
+/*# sourceMappingURL=alf.css.map */
