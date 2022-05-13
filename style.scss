@@ -216,18 +216,27 @@ $gris: #f2f2f2;
 		cursor: pointer;
 		border-image-source: 2px solid grey;
 	}
-	.resto__heartfull {
-		background-size: fit-content;
-		background-image: linear-gradient(to top, #ff79da, #9356dc);
+	.support {
+		background-color: white;
+		border: none;
+		&:focus > .fa-heart {
+			cursor: pointer;
+
+			font-weight: 800;
+			background: -webkit-gradient(
+				linear,
+				right bottom,
+				right top,
+				from(#ff79da),
+				to(#9356dc)
+			);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
 	}
-	&__heartfull:active {
-		opacity: 1;
-		transform: color(linear-gradient(to bottom, #ff79da, #9356dc));
-		transition-duration: 400ms;
-		-webkit-transform: color(linear-gradient(to bottom, #ff79da, #9356dc));
-		-moz-transform: color(linear-gradient(to bottom, #ff79da, #9356dc));
-		-ms-transform: color(linear-gradient(to bottom, #ff79da, #9356dc));
-		-o-transform: color(linear-gradient(to bottom, #ff79da, #9356dc));
+	.fa-heart {
+		font-size: 50px;
+		-webkit-text-fill-color: black;
 	}
 }
 /*Fin des restos*/

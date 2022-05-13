@@ -46,6 +46,24 @@ body {
      object-fit: cover;
 }
 
+.support {
+  background-color: white;
+  border: none;
+}
+
+.support:focus > .fa-heart {
+  cursor: pointer;
+  font-weight: 800;
+  background: -webkit-gradient(linear, right bottom, right top, from(#ff79da), to(#9356dc));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-heart {
+  font-size: 50px;
+  -webkit-text-fill-color: black;
+}
+
 /*FIN HEADER*/
 /*MENU*/
 .menu {
