@@ -10,13 +10,21 @@ body {
 /*Variables*/
 /*Fin des variables*/
 /*Header*/
+.fa-arrow-left {
+  font-size: larger;
+  padding-right: 5rem;
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 5px;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -25,6 +33,7 @@ body {
 .logo .logo__taille {
   width: 150px;
   height: 30px;
+  padding-right: 5rem;
 }
 
 .header {
@@ -62,10 +71,10 @@ body {
 
 .support:focus > .fa-heart {
   cursor: pointer;
-  font-weight: 800;
-  background: -webkit-gradient(linear, right bottom, right top, from(#ff79da), to(#9356dc));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  background: -webkit-gradient(linear, right bottom, right top, from(#ff79da), to(#9356dc));
 }
 
 .fa-heart {

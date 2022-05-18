@@ -15,9 +15,14 @@ $gris: #f2f2f2;
 /*Fin des variables*/
 
 /*Header*/
+.fa-arrow-left {
+	font-size: larger;
+	padding-right: 5rem;
+}
 .logo {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
+	align-items: center;
 	margin-bottom: 5px;
 	padding-top: 30px;
 	padding-bottom: 10px;
@@ -25,6 +30,7 @@ $gris: #f2f2f2;
 	.logo__taille {
 		width: 150px;
 		height: 30px;
+		padding-right: 5rem;
 	}
 }
 .header {
@@ -52,7 +58,8 @@ $gris: #f2f2f2;
 	border: none;
 	&:focus > .fa-heart {
 		cursor: pointer;
-
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 		font-weight: 800;
 		background: -webkit-gradient(
 			linear,
@@ -61,8 +68,6 @@ $gris: #f2f2f2;
 			from(#ff79da),
 			to(#9356dc)
 		);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 	}
 }
 .fa-heart {
