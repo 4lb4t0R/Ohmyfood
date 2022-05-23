@@ -171,7 +171,7 @@ $gris: #f2f2f2;
 	.resto__choix {
 		height: 15rem;
 		width: 20rem;
-		background: $gris;
+		background: white;
 		margin: 2rem auto;
 		border-radius: 15px;
 
@@ -203,7 +203,6 @@ $gris: #f2f2f2;
 		border: none;
 		&:focus > .fa-heart {
 			cursor: pointer;
-
 			font-weight: 800;
 			background: -webkit-gradient(
 				linear,
@@ -217,6 +216,7 @@ $gris: #f2f2f2;
 		}
 	}
 	.fa-heart {
+		font-size: x-large;
 		-webkit-text-fill-color: black;
 	}
 }
