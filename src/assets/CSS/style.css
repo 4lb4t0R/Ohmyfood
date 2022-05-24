@@ -255,7 +255,11 @@ body {
   border: none;
 }
 
-.resto .support:focus > .fa-heart {
+.resto .support input[type="checkbox"] {
+  display: none;
+}
+
+.resto .support > input:checked + label > .fa-heart {
   cursor: pointer;
   font-weight: 800;
   background: -webkit-gradient(linear, right bottom, right top, from(#ff79da), to(#9356dc));
