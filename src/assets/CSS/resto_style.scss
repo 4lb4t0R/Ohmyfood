@@ -125,6 +125,8 @@ $gris: #f2f2f2;
 		}
 	}
 	&__plat {
+		position: relative;
+		overflow: hidden;
 		flex-direction: column;
 		border-radius: 15px;
 		width: 80%;
@@ -135,11 +137,30 @@ $gris: #f2f2f2;
 		background-color: white;
 		margin-bottom: 1rem;
 		padding: 1rem;
+		&:hover {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-animation: slide-left 0.5s ease;
+			animation: slide-left 0.5s ease;
+			-webkit-transform-origin: right;
+			transform-origin: right;
+		}
 	}
 	&__price {
 		padding-top: 0.5rem;
 		display: flex;
 		justify-content: space-between;
+		&:hover {
+			padding-right: 70px;
+			transition: 0.5s ease;
+		}
 	}
 	&__txt {
 		font-family: "Roboto";
@@ -151,6 +172,56 @@ $gris: #f2f2f2;
 		justify-content: center;
 		font-family: "Roboto";
 	}
+}
+.checkmark {
+	display: none;
+	position: absolute;
+	background: $tertiaire;
+	border-radius: 0 15px 15px 0;
+	right: 0px;
+	padding: 0 13px;
+	height: 100%;
+	i {
+		font-size: 30px;
+		color: white;
+		transform: rotate(180deg);
+		animation: rotate 0.5s both;
+	}
+	&:hover {
+		animation: slide-left 0.5s ease;
+		transform-origin: right;
+	}
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes slide-left {
+	0% {
+		transform: scaleX(0);
+	}
+	100% {
+		transform: scaleX(-50px);
+	}
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.appears-with-opacity {
+	animation: opacity 1s both;
 }
 
 .order__btn {
