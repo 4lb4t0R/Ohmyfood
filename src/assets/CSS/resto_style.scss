@@ -54,13 +54,17 @@ $gris: #f2f2f2;
 	cursor: pointer;
 	border-image-source: 2px solid grey;
 }
-.support {
+.arrow {
 	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+.support {
+	background-color: $gris;
 	border: none;
 	&:focus > .fa-heart {
 		cursor: pointer;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+
 		font-weight: 800;
 		background: -webkit-gradient(
 			linear,
@@ -69,6 +73,8 @@ $gris: #f2f2f2;
 			from(#ff79da),
 			to(#9356dc)
 		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 }
 .fa-heart {
