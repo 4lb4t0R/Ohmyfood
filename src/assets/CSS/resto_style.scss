@@ -139,11 +139,14 @@ $gris: #f2f2f2;
 		padding: 1rem;
 	}
 	&__price {
+		cursor: pointer;
 		padding-top: 0.5rem;
 		display: flex;
 		justify-content: space-between;
 		text-overflow: ellipsis;
 		overflow: hidden;
+		font-weight: bold;
+		padding-right: 20px;
 		&__price:hover {
 			padding-right: 70px;
 			transition: 0.5s ease;
@@ -161,6 +164,7 @@ $gris: #f2f2f2;
 	}
 }
 .checkmark {
+	cursor: pointer;
 	display: none;
 	position: absolute;
 	background: #99e2d0;

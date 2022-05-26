@@ -169,6 +169,7 @@ body {
 }
 
 .menu__price {
+  cursor: pointer;
   padding-top: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,6 +179,8 @@ body {
           justify-content: space-between;
   text-overflow: ellipsis;
   overflow: hidden;
+  font-weight: bold;
+  padding-right: 20px;
 }
 
 .menu__price__price:hover {
@@ -205,6 +208,7 @@ body {
 }
 
 .checkmark {
+  cursor: pointer;
   display: none;
   position: absolute;
   background: #99e2d0;
