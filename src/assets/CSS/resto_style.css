@@ -183,7 +183,7 @@ body {
   padding-right: 20px;
 }
 
-.menu__price__price:hover {
+.menu__price:hover {
   padding-right: 70px;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -227,24 +227,26 @@ body {
   animation: rotate 0.5s both;
 }
 
-.rail {
-  height: 1.6rem;
-  width: 1.6rem;
-  background-color: #fff;
+.anim {
+  -webkit-animation: opacity 1s both;
+          animation: opacity 1s both;
+}
+
+.menu__price:hover .checkmark {
+  overflow: visible;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 100px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  animation: slide-left 0.5s ease;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-animation: slide-left 0.5s ease;
 }
 
 @-webkit-keyframes rotate {

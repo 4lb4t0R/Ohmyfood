@@ -147,10 +147,10 @@ $gris: #f2f2f2;
 		overflow: hidden;
 		font-weight: bold;
 		padding-right: 20px;
-		&__price:hover {
-			padding-right: 70px;
-			transition: 0.5s ease;
-		}
+	}
+	&__price:hover {
+		padding-right: 70px;
+		transition: 0.5s ease;
 	}
 	&__txt {
 		font-family: "Roboto";
@@ -167,11 +167,12 @@ $gris: #f2f2f2;
 	cursor: pointer;
 	display: none;
 	position: absolute;
-	background: #99e2d0;
+	background: $tertiaire;
 	border-radius: 0 15px 15px 0;
 	right: 0px;
 	padding: 0 13px;
 	height: 100%;
+
 	i {
 		font-size: 30px;
 		color: white;
@@ -181,18 +182,18 @@ $gris: #f2f2f2;
 		animation: rotate 0.5s both;
 	}
 }
-.rail {
-	height: 1.6rem;
-	width: 1.6rem;
-	background-color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 100px;
-	transform: rotate(180deg);
-	transition-duration: 0.5s;
+.anim {
+	animation: opacity 1s both;
 }
-
+.menu__price:hover .checkmark {
+	overflow: visible;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: slide-left 0.5s ease;
+	transform-origin: right;
+	-webkit-animation: slide-left 0.5s ease;
+}
 @keyframes rotate {
 	0% {
 		transform: rotate(0);
