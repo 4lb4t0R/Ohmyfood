@@ -163,7 +163,7 @@ $gris: #f2f2f2;
 .checkmark {
 	display: none;
 	position: absolute;
-	background: $tertiaire;
+	background: #99e2d0;
 	border-radius: 0 15px 15px 0;
 	right: 0px;
 	padding: 0 13px;
@@ -171,14 +171,22 @@ $gris: #f2f2f2;
 	i {
 		font-size: 30px;
 		color: white;
+		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
+		-webkit-animation: rotate 0.5s both;
 		animation: rotate 0.5s both;
 	}
-	&:hover {
-		display: inline-block;
-		animation: slide-left 0.5s ease;
-		transform-origin: right;
-	}
+}
+.rail {
+	height: 1.6rem;
+	width: 1.6rem;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+	transform: rotate(180deg);
+	transition-duration: 0.5s;
 }
 
 @keyframes rotate {
