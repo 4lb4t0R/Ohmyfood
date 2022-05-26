@@ -186,6 +186,12 @@ body {
   transform-origin: right;
 }
 
+.menu__plat:hover > .menu__price {
+  padding-right: 70px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
 .menu__price {
   cursor: pointer;
   padding-top: 0.5rem;
@@ -199,12 +205,6 @@ body {
   overflow: hidden;
   font-weight: bold;
   padding-right: 20px;
-}
-
-.menu__price:hover {
-  padding-right: 70px;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
 }
 
 .menu .checkmark {
