@@ -147,6 +147,7 @@ body {
 }
 
 .menu__plat {
+  cursor: pointer;
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -224,23 +225,6 @@ body {
   transform: rotate(180deg);
   -webkit-animation: rotate 0.5s both;
   animation: rotate 0.5s both;
-}
-
-.menu .checkmark:hover {
-  overflow: visible;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  animation: slide-left 0.5s ease;
-  -webkit-transform-origin: right;
-          transform-origin: right;
-  -webkit-animation: slide-left 0.5s ease;
 }
 
 .menu__txt {

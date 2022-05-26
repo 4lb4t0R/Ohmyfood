@@ -125,6 +125,7 @@ $gris: #f2f2f2;
 		}
 	}
 	&__plat {
+		cursor: pointer;
 		position: relative;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -154,6 +155,7 @@ $gris: #f2f2f2;
 		-webkit-transform-origin: right;
 		transform-origin: right;
 	}
+
 	&__price {
 		cursor: pointer;
 		padding-top: 0.5rem;
@@ -186,15 +188,6 @@ $gris: #f2f2f2;
 			-webkit-animation: rotate 0.5s both;
 			animation: rotate 0.5s both;
 		}
-	}
-	.checkmark:hover {
-		overflow: visible;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		animation: slide-left 0.5s ease;
-		transform-origin: right;
-		-webkit-animation: slide-left 0.5s ease;
 	}
 
 	&__txt {
