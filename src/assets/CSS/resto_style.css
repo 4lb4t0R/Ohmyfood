@@ -149,6 +149,7 @@ body {
 .menu__plat {
   position: relative;
   overflow: hidden;
+  text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -166,6 +167,22 @@ body {
   background-color: white;
   margin-bottom: 1rem;
   padding: 1rem;
+}
+
+.menu__plat:hover > .checkmark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-animation: slide-left 0.5s ease;
+  animation: slide-left 0.5s ease;
+  -webkit-transform-origin: right;
+  transform-origin: right;
 }
 
 .menu__price {
@@ -189,6 +206,43 @@ body {
   transition: 0.5s ease;
 }
 
+.menu .checkmark {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  background: #99e2d0;
+  border-radius: 0 15px 15px 0;
+  right: 0px;
+  padding: 0 13px;
+  height: 100%;
+}
+
+.menu .checkmark i {
+  font-size: 30px;
+  color: white;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation: rotate 0.5s both;
+  animation: rotate 0.5s both;
+}
+
+.menu .checkmark:hover {
+  overflow: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  animation: slide-left 0.5s ease;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-animation: slide-left 0.5s ease;
+}
+
 .menu__txt {
   font-family: "Roboto";
 }
@@ -207,46 +261,9 @@ body {
   font-family: "Roboto";
 }
 
-.checkmark {
-  cursor: pointer;
-  display: none;
-  position: absolute;
-  background: #99e2d0;
-  border-radius: 0 15px 15px 0;
-  right: 0px;
-  padding: 0 13px;
-  height: 100%;
-}
-
-.checkmark i {
-  font-size: 30px;
-  color: white;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-animation: rotate 0.5s both;
-  animation: rotate 0.5s both;
-}
-
 .anim {
   -webkit-animation: opacity 1s both;
           animation: opacity 1s both;
-}
-
-.menu__price:hover .checkmark {
-  overflow: visible;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  animation: slide-left 0.5s ease;
-  -webkit-transform-origin: right;
-          transform-origin: right;
-  -webkit-animation: slide-left 0.5s ease;
 }
 
 @-webkit-keyframes rotate {
