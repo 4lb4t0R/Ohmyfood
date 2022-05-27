@@ -125,6 +125,7 @@ $gris: #f2f2f2;
 		}
 	}
 	&__plat {
+		animation: opacity 1s both;
 		cursor: pointer;
 		position: relative;
 		overflow: hidden;
@@ -204,8 +205,32 @@ $gris: #f2f2f2;
 	}
 }
 
-.anim {
-	animation: opacity 1s both;
+.anim_1 {
+	animation-delay: 0.1s;
+}
+.anim_2 {
+	animation-delay: 0.2s;
+}
+.anim_3 {
+	animation-delay: 0.3s;
+}
+.anim_4 {
+	animation-delay: 0.4s;
+}
+.anim_5 {
+	animation-delay: 0.5s;
+}
+.anim_6 {
+	animation-delay: 0.6s;
+}
+.anim_7 {
+	animation-delay: 0.7s;
+}
+.anim_8 {
+	animation-delay: 0.8s;
+}
+.anim_9 {
+	animation-delay: 0.9s;
 }
 
 @keyframes rotate {
