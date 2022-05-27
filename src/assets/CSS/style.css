@@ -428,6 +428,25 @@ body {
   -o-border-radius: 15px;
 }
 
+.resto .nouveau {
+  position: absolute;
+  right: 4rem;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #99e2d0;
+  color: green;
+  width: 5rem;
+  height: 2rem;
+}
+
 .resto .image {
   width: 100%;
   height: 60%;
@@ -495,6 +514,7 @@ body {
   padding-right: 10px;
   height: 15px;
   width: 15px;
+  color: white;
 }
 
 .footer .footer__txt > p {

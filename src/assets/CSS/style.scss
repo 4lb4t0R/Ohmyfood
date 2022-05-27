@@ -300,7 +300,18 @@ $gris: #f2f2f2;
 		-ms-border-radius: 15px;
 		-o-border-radius: 15px;
 	}
-
+	.nouveau {
+		position: absolute;
+		right: 4rem;
+		margin-top: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: $tertiaire;
+		color: green;
+		width: 5rem;
+		height: 2rem;
+	}
 	.image {
 		width: 100%;
 		height: 60%;
@@ -364,6 +375,7 @@ $gris: #f2f2f2;
 		padding-right: 10px;
 		height: 15px;
 		width: 15px;
+		color: white;
 	}
 	.footer__txt > p {
 		color: white;
