@@ -34,9 +34,10 @@ $gris: #f2f2f2;
 }
 
 .loading__pictos {
-	width: 70vh;
+	width: 50vh;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	padding-top: 5rem;
 }
 
 .fa-ice-cream {
@@ -51,7 +52,7 @@ $gris: #f2f2f2;
 
 .fa-carrot {
 	animation: mvtfood 1.5s 280ms ease-in;
-	color: #99e2d0;
+	color: white;
 }
 
 .loading__logo {
@@ -63,24 +64,20 @@ $gris: #f2f2f2;
 	&::before {
 		content: "";
 		position: absolute;
-		top: 0;
-		right: 102px;
 		height: 100%;
 		width: 100%;
-		color: blue;
 		background: linear-gradient(0deg, #ff79da 10%, #9356dc 100%);
 		transform-origin: left;
 		animation: loading-typo 1s 1.5s ease-in forwards;
 	}
 
 	&::after {
-		content: "ohmyfood";
+		content: "";
 		position: absolute;
 		right: 0;
 		height: 100%;
 		width: 100%;
 		background-color: $tertiaire;
-		mix-blend-mode: lighten;
 	}
 }
 
