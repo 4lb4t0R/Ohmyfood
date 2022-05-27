@@ -40,19 +40,14 @@ $gris: #f2f2f2;
 	padding-top: 5rem;
 }
 
-.fa-ice-cream {
-	animation: mvtfood 1.5s ease-in;
-	color: #9356dc;
-}
-
-.fa-hamburger {
+.fa-utensils {
 	animation: mvtfood 1.5s 120ms ease-in;
-	color: #ff79da;
+	color: $principale;
 }
 
-.fa-carrot {
+.fa-champagne-glasses {
 	animation: mvtfood 1.5s 280ms ease-in;
-	color: white;
+	color: $secondaire;
 }
 
 .loading__logo {
