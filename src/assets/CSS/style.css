@@ -18,7 +18,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: 1;
+  z-index: 99;
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,12 +37,7 @@ body {
           animation: loading-disparition 0.5s 3s ease-in forwards;
 }
 
-.loading::after {
-  content: "";
-  display: none;
-}
-
-.loading__pictos {
+.loading .loading__pictos {
   width: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,13 +47,13 @@ body {
   padding-top: 5rem;
 }
 
-.fa-utensils {
+.loading .fa-utensils {
   -webkit-animation: mvtfood 1.5s 120ms ease-in;
           animation: mvtfood 1.5s 120ms ease-in;
   color: #9356dc;
 }
 
-.fa-champagne-glasses {
+.loading .fa-champagne-glasses {
   -webkit-animation: mvtfood 1.5s 280ms ease-in;
           animation: mvtfood 1.5s 280ms ease-in;
   color: #ff79da;
