@@ -37,6 +37,11 @@ body {
           animation: loading-disparition 0.5s 3s ease-in forwards;
 }
 
+.loading::after {
+  content: "";
+  display: none;
+}
+
 .loading__pictos {
   width: 50vh;
   display: -webkit-box;
