@@ -373,6 +373,7 @@ $gris: #f2f2f2;
 			from(#ff79da),
 			to(#9356dc)
 		);
+		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
