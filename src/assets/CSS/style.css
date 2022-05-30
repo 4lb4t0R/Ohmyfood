@@ -239,8 +239,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -250,7 +251,6 @@ body {
 }
 
 .header .header__dot {
-  margin-right: 15px;
   height: auto;
   width: auto;
 }
@@ -258,6 +258,11 @@ body {
 .header .header__txt {
   font-weight: bold;
   font-size: larger;
+  border: none;
+  background-color: #e7eaed;
+  color: black;
+  font-family: "Roboto";
+  text-align: center;
 }
 
 /*FIN HEADER*/
@@ -302,11 +307,22 @@ body {
   height: 50px;
   width: 220px;
   border: none;
+  cursor: pointer;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background-image: linear-gradient(to bottom, #ff79da, #9356dc);
   color: white;
   -webkit-box-shadow: 0px 5px 10px grey;
           box-shadow: 0px 5px 10px grey;
+}
+
+.intro .intro__btn:hover {
+  color: #99e2d0;
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
 /*Fin intro*/

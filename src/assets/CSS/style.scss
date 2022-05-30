@@ -154,19 +154,23 @@ $gris: #f2f2f2;
 
 .header {
 	display: flex;
-	align-content: center;
+	align-items: center;
 	justify-content: center;
 	background-color: #e7eaed;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	.header__dot {
-		margin-right: 15px;
 		height: auto;
 		width: auto;
 	}
 	.header__txt {
 		font-weight: bold;
 		font-size: larger;
+		border: none;
+		background-color: #e7eaed;
+		color: black;
+		font-family: "Roboto";
+		text-align: center;
 	}
 }
 /*FIN HEADER*/
@@ -201,9 +205,19 @@ $gris: #f2f2f2;
 		height: 50px;
 		width: 220px;
 		border: none;
+		cursor: pointer;
 		background-image: linear-gradient(to bottom, #ff79da, #9356dc);
 		color: white;
 		box-shadow: 0px 5px 10px grey;
+	}
+	.intro__btn:hover {
+		color: $tertiaire;
+		opacity: 0.8;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+		transition: 0.3s;
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 	}
 }
 /*Fin intro*/
