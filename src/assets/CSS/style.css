@@ -18,7 +18,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: 99;
+  z-index: 1;
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,6 +35,12 @@ body {
           align-items: center;
   -webkit-animation: loading-disparition 0.5s 3s ease-in forwards;
           animation: loading-disparition 0.5s 3s ease-in forwards;
+  overflow: hidden;
+}
+
+.loading::after {
+  content: "";
+  display: none;
 }
 
 .loading .loading__pictos {
@@ -186,6 +192,10 @@ body {
 }
 
 /*Fin loader*/
+.intro__btn + .fonctionmt__btn:active > .loading {
+  display: none;
+}
+
 /*Header*/
 .logo {
   -webkit-box-shadow: 10px 0px 9px grey;

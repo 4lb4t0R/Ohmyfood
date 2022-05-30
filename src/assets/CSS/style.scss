@@ -24,13 +24,18 @@ $gris: #f2f2f2;
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	z-index: 99;
+	z-index: 1;
 	color: black;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	animation: loading-disparition 0.5s 3s ease-in forwards;
+	overflow: hidden;
+	&::after {
+		content: "";
+		display: none;
+	}
 	.loading__pictos {
 		width: 50vh;
 		display: flex;
@@ -109,6 +114,9 @@ $gris: #f2f2f2;
 	}
 }
 /*Fin loader*/
+.intro__btn + .fonctionmt__btn:active > .loading {
+	display: none;
+}
 
 /*Header*/
 .logo {
