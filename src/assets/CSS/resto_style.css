@@ -425,5 +425,10 @@ body {
   padding-bottom: 5px;
 }
 
+.mail {
+  text-decoration: none;
+  color: white;
+}
+
 /*Fin footer*/
 /*# sourceMappingURL=resto_style.css.map */
