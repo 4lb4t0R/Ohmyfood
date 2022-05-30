@@ -179,6 +179,8 @@ body {
   }
   to {
     opacity: 0;
+    height: 0px;
+    width: 0px;
   }
 }
 
@@ -188,12 +190,15 @@ body {
   }
   to {
     opacity: 0;
+    height: 0px;
+    width: 0px;
   }
 }
 
 /*Fin loader*/
-.intro__btn + .fonctionmt__btn:active > .loading {
+.intro__btn + .fonctionmt__btn:hover > .loading {
   display: none;
+  z-index: 0;
 }
 
 /*Header*/
@@ -334,6 +339,7 @@ body {
 }
 
 .fonctionmt .fonctionmt__btn > button {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,6 +381,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  left: -12px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -389,7 +397,6 @@ body {
   height: 1.4rem;
   width: 1.5rem;
   position: absolute;
-  left: 1.8rem;
   border-radius: 35px;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
