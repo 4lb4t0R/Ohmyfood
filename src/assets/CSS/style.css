@@ -359,21 +359,23 @@ body {
   border: none;
   -webkit-box-shadow: 0px 5px 10px grey;
           box-shadow: 0px 5px 10px grey;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
 }
 
-.fonctionmt .etapes:focus {
+.fonctionmt .etapes:hover {
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
   background-color: #f5e4f0;
 }
 
-.fonctionmt .etapes:focus > h4 {
+.fonctionmt .etapes:hover > h4 {
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
   color: #9356dc;
 }
 
-.fonctionmt .etapes:focus > i {
+.fonctionmt .etapes:hover > i {
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
   color: #9356dc;
 }
 
@@ -594,15 +596,6 @@ body {
 @media (min-width: 992px) {
   .resto__heart:hover {
     cursor: pointer;
-  }
-  .etapes:hover {
-    background-color: #f5e4f0;
-  }
-  .etapes:hover > h4 {
-    color: #9356dc;
-  }
-  .etapes:hover > i {
-    color: #9356dc;
   }
   .resto .resto__choix {
     width: 30rem;
