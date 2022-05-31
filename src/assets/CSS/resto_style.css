@@ -80,6 +80,7 @@ body {
   cursor: pointer;
   font-weight: 800;
   background: -webkit-gradient(linear, right bottom, right top, from(#ff79da), to(#9356dc));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -464,5 +465,24 @@ body {
 
 /*FIN DES TABLETTES*/
 /*POUR PC*/
+@media (min-width: 992px) {
+  .support:hover > .fa-heart {
+    cursor: pointer;
+    font-weight: 800;
+    background: -webkit-gradient(linear, right bottom, right top, from(#ff79da), to(#9356dc));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .menu__title {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .menu__order {
+    padding-left: 30rem;
+  }
+}
+
 /*FIN DU PC*/
 /*# sourceMappingURL=resto_style.css.map */
