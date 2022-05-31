@@ -62,7 +62,6 @@ body {
 	font-size: x-large;
 	padding-top: 0.2rem;
 	cursor: pointer;
-	border-image-source: 2px solid grey;
 }
 
 .arrow {
@@ -79,12 +78,11 @@ body {
 .support:focus > .fa-heart {
 	cursor: pointer;
 	font-weight: 800;
-	background: linear-gradient(
-		linear,
-		right bottom,
-		right top,
-		from(#ff79da),
-		to(#9356dc)
+	background-image: linear-gradient(
+		to bottom right,
+
+		#ff79da,
+		#9356dc
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -135,7 +133,6 @@ body {
 	padding-right: 1rem;
 	padding-top: 0.2rem;
 	cursor: pointer;
-	border-image-source: 2px solid grey;
 }
 
 .menu__order {
@@ -329,17 +326,6 @@ body {
 	0% {
 		-webkit-transform: scaleX(0);
 		transform: scaleX(0);
-	}
-	100% {
-		-webkit-transform: scaleX(-50px);
-		transform: scaleX(-50px);
-	}
-}
-
-@keyframes slide-left {
-	0% {
-		-webkit-transform: scaleX(0);
-		transform: scaleX(0);
 		-moz-transform: scaleX(0);
 		-ms-transform: scaleX(0);
 		-o-transform: scaleX(0);
@@ -350,6 +336,23 @@ body {
 		-moz-transform: scaleX(-50px);
 		-ms-transform: scaleX(-50px);
 		-o-transform: scaleX(-50px);
+	}
+}
+
+@keyframes slide-left {
+	0% {
+		transform: scaleX(0);
+		-webkit-transform: scaleX(0);
+		-moz-transform: scaleX(0);
+		-ms-transform: scaleX(0);
+		-o-transform: scaleX(0);
+	}
+	100% {
+		transform: scaleX(1);
+		-webkit-transform: scaleX(1);
+		-moz-transform: scaleX(1);
+		-ms-transform: scaleX(1);
+		-o-transform: scaleX(1);
 	}
 }
 
