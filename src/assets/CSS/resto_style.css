@@ -205,7 +205,6 @@ body {
           justify-content: space-between;
   text-overflow: ellipsis;
   overflow: hidden;
-  font-weight: bold;
   padding-right: 20px;
 }
 
@@ -432,6 +431,37 @@ body {
 
 /*Fin footer*/
 /*POUR TABLETTE*/
+@media screen and (min-width: 768px) {
+  .menu__title {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .menu__order {
+    padding-left: 25rem;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer__logo {
+    margin-top: 1rem;
+  }
+  .footer__txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2rem;
+  }
+}
+
 /*FIN DES TABLETTES*/
 /*POUR PC*/
 /*FIN DU PC*/

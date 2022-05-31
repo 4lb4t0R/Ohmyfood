@@ -169,7 +169,7 @@ $gris: #f2f2f2;
 		justify-content: space-between;
 		text-overflow: ellipsis;
 		overflow: hidden;
-		font-weight: bold;
+
 		padding-right: 20px;
 	}
 
@@ -324,6 +324,25 @@ $gris: #f2f2f2;
 
 /*POUR TABLETTE*/
 @media screen and (min-width: 768px) {
+	.menu__title {
+		justify-content: space-around;
+	}
+	.menu__order {
+		padding-left: 25rem;
+	}
+	.footer {
+		display: flex;
+		justify-content: center;
+
+		flex-direction: row;
+	}
+	.footer__logo {
+		margin-top: 1rem;
+	}
+	.footer__txt {
+		display: flex;
+		padding-top: 2rem;
+	}
 }
 
 /*FIN DES TABLETTES*/
