@@ -423,12 +423,35 @@ $gris: #f2f2f2;
 		padding-top: 2rem;
 	}
 }
-
 /*FIN DES TABLETTES*/
 
 /*POUR PC*/
 
 @media (min-width: 992px) {
-}
+	.resto__heart:hover {
+		cursor: pointer;
+	}
+	.fonctionmt {
+		.fonctionmt__btn > button {
+			cursor: pointer;
 
+			&:hover {
+				background-color: #f2e7f7;
+				color: #9356dc;
+			}
+			&:hover > i {
+				color: #9356dc;
+			}
+		}
+	}
+	.resto {
+		.resto__choix {
+			width: 30rem;
+			height: 20rem;
+		}
+		.desc {
+			padding-top: 2rem;
+		}
+	}
+}
 /*FIN DU PC*/
