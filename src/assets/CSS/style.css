@@ -338,7 +338,8 @@ body {
   background-color: white;
 }
 
-.fonctionmt .fonctionmt__btn > button {
+.fonctionmt .etapes {
+  cursor: pointer;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -364,11 +365,15 @@ body {
   -o-border-radius: 15px;
 }
 
-.fonctionmt__btn > button:focus {
-  background-color: #f2e7f7;
+.fonctionmt .etapes:focus {
+  background-color: #f5e4f0;
 }
 
-.fonctionmt__btn > button:focus > i {
+.fonctionmt .etapes:focus > h4 {
+  color: #9356dc;
+}
+
+.fonctionmt .etapes:focus > i {
   color: #9356dc;
 }
 
@@ -590,14 +595,13 @@ body {
   .resto__heart:hover {
     cursor: pointer;
   }
-  .fonctionmt .fonctionmt__btn > button {
-    cursor: pointer;
+  .etapes:hover {
+    background-color: #f5e4f0;
   }
-  .fonctionmt .fonctionmt__btn > button:hover {
-    background-color: #f2e7f7;
+  .etapes:hover > h4 {
     color: #9356dc;
   }
-  .fonctionmt .fonctionmt__btn > button:hover > i {
+  .etapes:hover > i {
     color: #9356dc;
   }
   .resto .resto__choix {

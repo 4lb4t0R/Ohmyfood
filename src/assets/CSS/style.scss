@@ -210,6 +210,7 @@ $gris: #f2f2f2;
 /*Fin intro*/
 
 /*Fonctionnement du site*/
+
 .fonctionmt {
 	font-weight: bold;
 	margin-top: 50px;
@@ -225,14 +226,14 @@ $gris: #f2f2f2;
 		margin: 15px 0;
 		background-color: white;
 	}
-
-	.fonctionmt__btn > button {
+	.etapes {
+		cursor: pointer;
 		position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		font-weight: bold;
-		background-color: #f2f2f2;
+		background-color: $gris;
 		width: 80%;
 		height: 4rem;
 		margin: 0 auto;
@@ -243,13 +244,17 @@ $gris: #f2f2f2;
 		-moz-border-radius: 15px;
 		-ms-border-radius: 15px;
 		-o-border-radius: 15px;
+		&:focus {
+			background-color: #f5e4f0;
+		}
+		&:focus > h4 {
+			color: #9356dc;
+		}
+		&:focus > i {
+			color: #9356dc;
+		}
 	}
-	&__btn > button:focus {
-		background-color: #f2e7f7;
-	}
-	&__btn > button:focus > i {
-		color: #9356dc;
-	}
+
 	.fonctionmt__icn {
 		padding-right: 1.5rem;
 		color: grey;
@@ -431,18 +436,14 @@ $gris: #f2f2f2;
 	.resto__heart:hover {
 		cursor: pointer;
 	}
-	.fonctionmt {
-		.fonctionmt__btn > button {
-			cursor: pointer;
-
-			&:hover {
-				background-color: #f2e7f7;
-				color: #9356dc;
-			}
-			&:hover > i {
-				color: #9356dc;
-			}
-		}
+	.etapes:hover {
+		background-color: #f5e4f0;
+	}
+	.etapes:hover > h4 {
+		color: #9356dc;
+	}
+	.etapes:hover > i {
+		color: #9356dc;
 	}
 	.resto {
 		.resto__choix {
