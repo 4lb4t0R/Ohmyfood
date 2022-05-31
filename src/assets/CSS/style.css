@@ -420,6 +420,7 @@ body {
 }
 
 .resto .resto__choix {
+  position: relative;
   height: 15rem;
   width: 20rem;
   background: white;
@@ -435,7 +436,7 @@ body {
 
 .resto .nouveau {
   position: absolute;
-  right: 4rem;
+  right: 1rem;
   margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,4 +543,48 @@ body {
 }
 
 /*Fin footer*/
+/*POUR TABLETTE*/
+@media screen and (min-width: 768px) {
+  .fonctionmt__titre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .resto__titre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer__logo {
+    margin-top: 1rem;
+  }
+  .footer__txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2rem;
+  }
+}
+
+/*FIN DES TABLETTES*/
+/*POUR PC*/
+/*FIN DU PC*/
 /*# sourceMappingURL=style.css.map */

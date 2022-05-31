@@ -293,6 +293,7 @@ $gris: #f2f2f2;
 		font-weight: bolder;
 	}
 	.resto__choix {
+		position: relative;
 		height: 15rem;
 		width: 20rem;
 		background: white;
@@ -307,7 +308,7 @@ $gris: #f2f2f2;
 	}
 	.nouveau {
 		position: absolute;
-		right: 4rem;
+		right: 1rem;
 		margin-top: 2rem;
 		display: flex;
 		justify-content: center;
@@ -398,7 +399,29 @@ $gris: #f2f2f2;
 /*Fin footer*/
 
 /*POUR TABLETTE*/
+
 @media screen and (min-width: 768px) {
+	.fonctionmt__titre {
+		display: flex;
+		justify-content: center;
+	}
+	.resto__titre {
+		display: flex;
+		justify-content: center;
+	}
+	.footer {
+		display: flex;
+		justify-content: center;
+
+		flex-direction: row;
+	}
+	.footer__logo {
+		margin-top: 1rem;
+	}
+	.footer__txt {
+		display: flex;
+		padding-top: 2rem;
+	}
 }
 
 /*FIN DES TABLETTES*/
@@ -407,4 +430,5 @@ $gris: #f2f2f2;
 
 @media (min-width: 992px) {
 }
+
 /*FIN DU PC*/
