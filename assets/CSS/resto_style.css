@@ -73,6 +73,7 @@ body {
 .arrow {
   background-color: white;
   border: none;
+  color: black;
   cursor: pointer;
 }
 
